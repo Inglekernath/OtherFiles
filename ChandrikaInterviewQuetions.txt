@@ -1,0 +1,94 @@
+Core Java
+1. what is java ? why we use java?
+2. oops - real time example of abstraction, encapsulation, polymorphism,inheritance.
+3. Exception - custom exception, thow and thows diffrence.
+   a. what is the main purpose of finally.
+   
+4. collection - array v/s collection,
+   a. set allows duplicate or not -no -> if i will add the same element in set then what will happen - then it occurs runtime exception or compile time exception.
+   b. array v/s arraylist
+   c. which is better arraylist or set -> according to our need.
+   d. which is better itrator or for loop,for each.
+   e. convert list into map(set) by stream api.
+   f. which is better arraylist or linkedlist.
+5. Map - what is map and its implemented class.
+   a. how to get the value on the basis of key. -> (1,"chandrika") -> chandrika -> n.get(1).
+   b. internal working of hashmap.
+6. Interface- 
+   (i) Marker Interface - (serializable, Cloneable, Remote)
+   a. serialization-> what is serialization?-> tell me two ways to ristrict any data in serialization. -> transient and static (password).
+   b. why we use the serialization ?
+   c. why we use serialversion id ?	(Security(hackers))
+   (ii)Normal interface - (Interface)
+   (iii)Functional interface - it is also known as SAM interface(Single abstract method)-
+   a. why default method is present in functional interface.
+   b. tell me the pre define functional interface in java.-  comparator, runnable, callable , predicate, function, supplier, consumer, unaryoprater.
+   c. why we use funtional interface.
+7. how many design pattern do u know.
+   a. singleton -> how create singleton instance -> why u are create a object as a private.
+8. Multithreading -> 
+   a. do you ever work on multithreading , do u ever use multithreading in your project.
+   b. how many ways to create thread in java ?
+   c. tell me the state of thread ?
+   d. diffrence on wait or sleep?
+   e. define synchronize method and synchronize block ?
+9. garbage collector -> 
+   a. tell me two ways to call garbage collector ? system.gc(), finalize().
+10 String ->
+   a. what is string?
+   b. why string is immutable ?
+   c. string s="abcd"; -> s.concat("xyz");
+   d. which is the final class in java except string ?
+   e. how to create own immutable class ? 
+   f. 0.0/0.0 ? NaN -> "NaN" stands for "Not a Number"
+   g. Diffrence b/w stringbuffer and stringbuilder?
+   h. Diffrence b/w string and stringbuilder or stringbuffer?
+   
+11. Java 1.8 features?
+   a. do you know about java 1.8 feature or are you work on that?
+   b. are you using in you project ?
+   c. which version u are using in ur project ?
+   d. what is lambda expression?
+   e. what is functional interface?
+   f. what is base64 ?
+   g. what is stream ?
+
+Hibernate 
+      
+1. what is hibernate ?
+2. diffrence between hibernate and jdbc ?
+3. how can connect/configure the java application to database ? tell me the steps of that 
+4. what is ORM tool ?how it works?
+5. difference between get() and load() ?
+6. Architecture of hibernate ?
+7. annotations of hibernate -> entity, table, colunm , id .
+
+Spring 
+ 
+1. what is spring ?
+2. diffrence between spring / springMVC and Spring boot ?
+3. type of beans ?
+4. scope of bean ?
+5. Spring AOP ?
+6. Flow of spring MVC ?
+7. what is ioc container and DI ?
+8. Annotations of spring -> Stereotype annotation(component, controller, service, repository)
+   a. Autowired, compnentscan, controller, qualifier, 
+9. can we create RESTAPI in springMVC ?
+
+spring boot 
+
+1. how to change the server port? -> application.properties file - server.port=9090 .
+2. What is RESTAPI ? 
+3. Why is Returns JSON ?
+4. can we create webapplication in springboot ?
+5. can you change you embedded server ?
+6. HTTP method -> 
+   a. idempotent method- get,put, delete.
+   b. non idempotent method -post.
+7. Annotation - SpringBootApplication, Restcontroller, 
+
+Project
+logger
+                     
+ 
